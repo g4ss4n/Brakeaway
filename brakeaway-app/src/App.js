@@ -9,8 +9,14 @@ function App() {
     <div className="App">
       <Navbar />
       <div>
-        <Home />
-        <About />
+        <a name="home">
+          {" "}
+          <Home />{" "}
+        </a>
+
+        <a name="about">
+          <About />
+        </a>
       </div>
     </div>
   );
