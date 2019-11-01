@@ -3,6 +3,8 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
+import Footer from "./components/Footer";
+import PB from "./components/PB";
 
 function App() {
   return (
@@ -13,10 +15,14 @@ function App() {
           {" "}
           <Home />{" "}
         </a>
-
         <a name="about">
           <About />
         </a>
+        <a name="pb">
+          {" "}
+          <PB />
+        </a>
+        <Footer />
       </div>
     </div>
   );
