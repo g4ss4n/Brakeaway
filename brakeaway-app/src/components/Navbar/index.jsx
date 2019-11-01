@@ -12,8 +12,10 @@ export default class Navbar extends React.Component {
           <img src={logo2} alt="logo" className="logo" />
         </div>
         <div className="menu-section">
-          <p>Home</p> <p>About Us</p> <p>Potential Benifits</p>
-          <p>Partner With Us</p> <p>Team</p> <p>Contact Us</p>
+          <a href="#home">Home</a> <a href="#about">About Us</a>{" "}
+          <a href="#pb">Potential Benifits</a>
+          <a href="#partner">Partner With Us</a> <a href="#team">Team</a>{" "}
+          <a href="#contact">Contact Us</a>
         </div>
       </section>
     );

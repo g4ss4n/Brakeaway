@@ -34,12 +34,14 @@
   }
 }
 
-p {
+.menu-section a {
   padding: 13px;
   border: 2.5px solid transparent;
   transition: 0.5s;
+  text-decoration: none;
+  color: rgb(189, 189, 189);
 }
-p:hover {
+.menu-section a:hover {
   color: rgb(0, 183, 255);
   transition: 0.5s;
   border-bottom: 2.5px solid rgb(0, 183, 255);
