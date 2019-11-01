@@ -5,6 +5,8 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import PB from "./components/PB";
+import Partner from "./components/Partner";
+import Team from "./components/Team";
 
 function App() {
   return (
@@ -21,6 +23,12 @@ function App() {
         <a name="pb">
           {" "}
           <PB />
+        </a>
+        <a name="partner">
+          <Partner />
+        </a>
+        <a name="team">
+          <Team />
         </a>
         <Footer />
       </div>
