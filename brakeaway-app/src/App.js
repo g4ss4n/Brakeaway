@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import PB from "./components/PB";
 import Partner from "./components/Partner";
 import Team from "./components/Team";
+import Slidehsow from "./components/Slidshow"
 
 function App() {
   return (
