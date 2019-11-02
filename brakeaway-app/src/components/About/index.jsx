@@ -1,10 +1,14 @@
 import React from "react";
 import "./style.css";
+import Slideshow from "../Slidshow"
 
 export default class About extends React.Component {
   render() {
     return (
       <section className="about">
+                <div className="slide">
+          <Slideshow/>
+        </div>
         <div className="div1">
           <h1 className="title">About Us</h1>
           <h3 className="description2">
@@ -17,7 +21,6 @@ export default class About extends React.Component {
             reduce the rehabilitation time for patients.
           </h3>
         </div>
-        <div className="image"></div>
       </section>
     );
   }

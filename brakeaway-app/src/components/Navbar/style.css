@@ -6,7 +6,7 @@
   border-bottom: rgb(0, 181, 252) 2px solid;
   height: 50px;
   position: fixed;
-  top: 0%;
+  z-index: 2;
   width: 100%;
 }
 
