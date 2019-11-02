@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import logo1 from "../../assets/images/Logo1.png";
 import logo2 from "../../assets/images/Logo2.png";
+import menu from "../../assets/icons/menu.jpg"
 
 export default class Navbar extends React.Component {
   render() {
@@ -16,6 +17,9 @@ export default class Navbar extends React.Component {
           <a href="#pb">Potential Benifits</a>
           <a href="#partner">Partner With Us</a> <a href="#team">Team</a>{" "}
           <a href="#contact">Contact Us</a>
+        </div>
+        <div>
+        <img src={menu} alt="logo" className="icon"/>
         </div>
       </section>
     );
