@@ -1,10 +1,26 @@
 .footer {
-  color: white;
+  color: rgba(255, 255, 255, 0.557);
   background: rgba(0, 0, 0, 0.781);
-  padding: 20px;
+  padding: 30px;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.262);
+}
+
+.fcon{
+  margin-bottom: 30px;
 }
 
 .footer1 {
   font-family: Helvetica;
   font-weight: 100;
+  
+}
+
+.footer1 a{
+  text-decoration: none;
+  color: rgb(0, 183, 255);
+}
+
+.pad2{
+  height: 1px;
+  background: rgba(255, 255, 255, 0.027);
 }
