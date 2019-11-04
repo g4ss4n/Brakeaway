@@ -47,18 +47,19 @@ ul {
 }
 li {
   width: 100vw;
-  padding: 8px 12px;
+  padding: 20px ;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.146);
 }
 
 li a{
-  padding: 15px;
+  padding: 30px;
   color: white;
   text-decoration: none;
-  width: 100%;
+
 }
 
 li:hover {
-  background-color: rgba(0, 183, 255, 0.726);
+  background-color: rgba(0, 183, 255, 0.845);
   cursor: pointer;
 }
 

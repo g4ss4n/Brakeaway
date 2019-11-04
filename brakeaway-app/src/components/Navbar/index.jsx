@@ -57,12 +57,12 @@ document.removeEventListener("mousedown", this.handleClickOutside);
 {this.state.open && (
   <div class="dropdown">
     <ul>
-      <li > <a href="#home">Home</a></li>
-      <li > <a href="#about">About Us</a></li>
-      <li > <a href="#pb">Potential Benifits</a></li>
-      <li > <a href="#partner">Partner With Us</a></li>
-      <li > <a href="#team">Team</a></li>
-      <li > <a href="#contact">Contact Us</a></li>
+      <li > <a href="#home" onClick={this.handleButtonClick}>Home</a></li>
+      <li > <a href="#about" onClick={this.handleButtonClick}>About Us</a></li>
+      <li > <a href="#pb" onClick={this.handleButtonClick}>Potential Benifits</a></li>
+      <li > <a href="#partner" onClick={this.handleButtonClick}>Partner With Us</a></li>
+      <li > <a href="#team" onClick={this.handleButtonClick}>Team</a></li>
+      <li > <a href="#contact" onClick={this.handleButtonClick}>Contact Us</a></li>
     </ul>
   </div>
 )}
