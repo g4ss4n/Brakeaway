@@ -1,0 +1,45 @@
+.title3 {
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.856);
+  padding-top: 30px;
+  font-size: 40px;
+}
+
+.teamcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 900px) {
+  .teamcontainer {
+    flex-direction: column;
+  }
+}
+
+.timage {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  border: 3px white solid;
+  box-shadow: rgba(0, 0, 0, 0.452) 0px 0px 7px;
+}
+
+.team {
+  background: white;
+}
+
+.team p {
+  color: rgba(0, 0, 0, 0.856);
+  font-family: Helvetica;
+}
+
+.tdiv {
+  padding: 20px;
+}
+
+.name{
+  font-size:26px;
+}
