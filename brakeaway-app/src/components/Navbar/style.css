@@ -18,10 +18,48 @@
 }
 
 .icon{
-  height: 50px;
-  width: 70px;
+  font-size: 30px;
   display: none;
- margin-right: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+  color: rgb(0, 183, 255);
+  background: transparent;
+  border: transparent;
+}
+
+.dropdown {
+  transition: 1s;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100vw;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.701);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14);
+}
+
+ul {
+  width: 100vw;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  width: 100vw;
+  padding: 8px 12px;
+}
+
+li a{
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+}
+
+li:hover {
+  background-color: rgba(0, 183, 255, 0.726);
+  cursor: pointer;
 }
 
 .menu-section {
