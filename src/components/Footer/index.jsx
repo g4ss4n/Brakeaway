@@ -11,7 +11,7 @@ export default class Footer extends React.Component {
         </div>
         <section className="pad2"> </section>
         <h3 className="footer1">
-            Designed by Ghassan Gharzuzy | <a href="g4ss4n@gmail.com">g4ss4n@gmail.com</a>
+            Designed by Loopedex | <a href="https://www.loopedex.com"> Loopedex</a>
           </h3>
         <div className="image"></div>
       </section>
