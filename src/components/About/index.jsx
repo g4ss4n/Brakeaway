@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Slideshow from "../Slidshow"
+import Slideshow from "../Slideshow"
 
 export default class About extends React.Component {
   render() {
